@@ -9,9 +9,11 @@
       "args": ["runserver", "0.0.0.0:8000"],
       "django": true,
       "justMyCode": true,
+      "cwd": "${workspaceFolder}/octofit-tracker/backend",
       "python": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
+      "console": "integratedTerminal",
       "env": {
-        "PYTHONPATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
+        "PYTHONPATH": "${workspaceFolder}/octofit-tracker/backend",
         "VIRTUAL_ENV": "${workspaceFolder}/octofit-tracker/backend/venv",
         "PATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin:${env:PATH}"
       }
